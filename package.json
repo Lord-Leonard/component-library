@@ -1,0 +1,25 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Lord-Leonard/component-library.git",
+  "author": "Lord-Leonard <leonardgeorg@gmx.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/web-components": "^6.5.12",
+    "babel-loader": "^8.2.5",
+    "lit-html": "^2.4.0"
+  },
+  "dependencies": {
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
